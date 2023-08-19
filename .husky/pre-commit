@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+pnpm run format
+# 当我们对代码进行commit操作的时候，就会执行命令，对代码进行格式化，然后再提交
